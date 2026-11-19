@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Jeffrey Arzu | Data Science & AI Portfolio</title>
+		<title>Jeffrey Arzu | AI Solutions & Data Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,9 +20,9 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Jeffrey Arzu<br /></h1>
-						<p>AI Business Solutions Fellow @ The Knowledge House · CS Student (&rarr; Cal State LA, Fall 2026)<br />
-						Building and deploying AI agents, LLM tools, and data solutions end-to-end.<br />
-						Python · SQL · LangChain · Streamlit · Tableau · Power BI</p>
+						<p>AI Solutions &amp; Enablement &middot; Data Analyst &middot; AI Practitioner<br />
+						Building and deploying AI agents, LLM tools, and data pipelines end-to-end.<br />
+						Python &middot; SQL &middot; LangChain &middot; Streamlit &middot; DuckDB &middot; Tableau</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -66,6 +66,30 @@
 
 								<article>
 									<header>
+										<h2><a href="https://github.com/Oaazu/family-message-helper">Family Message Helper<br />Human-Reviewed Multilingual AI Assistant</a></h2>
+									</header>
+									<a href="https://github.com/Oaazu/family-message-helper" class="image fit"><img src="images/linkedin-roadmap.png" alt="Family Message Helper" /></a>
+									<p>A Gemini assistant that drafts family messages in English, Spanish, and Haitian Creole for a nonprofit after-school program, built as my AI Tech Corps capstone (OptimaNova AI). Discovery interviews showed translated messages took up to a week, so I designed it to draft all three languages in seconds while a fluent reviewer and the coordinator approve every message. It asks instead of guessing, refuses private details, and ignores hidden instructions. Tested across 12 cases including failures that led to logged fixes, with a full handoff manual for staff.</p>
+									<p><strong>Stack:</strong> Google Gemini · Prompt Engineering · LLM Testing · Responsible AI · Technical Documentation</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Oaazu/family-message-helper" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
+										<h2><a href="https://github.com/Oaazu/san-pedro-vessel-activity">San Pedro Bay Vessel Activity<br />Maritime Port Analytics with Geofencing</a></h2>
+									</header>
+									<a href="https://github.com/Oaazu/san-pedro-vessel-activity" class="image fit"><img src="images/spmaps.jpg" alt="San Pedro Bay Vessel Activity map" /></a>
+									<p>An end-to-end pipeline that turns 10M+ public AIS ship-tracking records from the Ports of LA and Long Beach into 736 reconstructed port visits. Filters out recreational traffic, rebuilds each visit as a timeline of anchorage and berth stops, and geofences 9 anchorage and terminal zones to trace full routes. Every zone is validated against the ships' own reported status — a check that caught and corrected a labeling error before results were shared. Found most ships berth with no wait (median 0 days), while the longest was a tanker anchored 20 days.</p>
+									<p><strong>Stack:</strong> Python · DuckDB · pandas · Shapely · Folium · GeoJSON · Parquet</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Oaazu/san-pedro-vessel-activity" class="button">View Project</a></li>
+									</ul>
+								</article>
+
+								<article>
+									<header>
 										<h2><a href="https://deployagent.streamlit.app/">YouTube Research Agent<br />Agentic LLM with Live Tool-Calling</a></h2>
 									</header>
 									<a href="https://deployagent.streamlit.app/" class="image fit"><img src="images/agentdemo.png" alt="YouTube Research Agent" /></a>
@@ -90,19 +114,6 @@
 
 								<article>
 									<header>
-										<h2><a href="https://github.com/Oaazu/youtube-recommender">YouTube AI<br />Recommendation Engine</a></h2>
-									</header>
-									<a href="https://youtube-recommender-i9bcmmdodvmw5tyyx6zqsn.streamlit.app/" class="image fit"><img src="images/ytiarecc.png" alt="YouTube AI Recommendation Tool" /></a>
-									<p>AI-powered web app that fetches live YouTube data via the YouTube Data API v3 and ranks videos by relevance using a TF-IDF content-based recommendation engine — not just view count. Fully deployed on Streamlit Cloud.</p>
-									<p><strong>Stack:</strong> Python · YouTube Data API v3 · pandas · scikit-learn · Streamlit</p>
-									<ul class="actions special">
-										<li><a href="https://youtube-recommender-i9bcmmdodvmw5tyyx6zqsn.streamlit.app/" class="button">Live Demo</a></li>
-										<li><a href="https://github.com/Oaazu/youtube-recommender" class="button">GitHub</a></li>
-									</ul>
-								</article>
-
-								<article>
-									<header>
 										<h2><a href="https://github.com/Oaazu/case-study-03-produce-shrink-analysis">Produce Shrink Analysis<br />Retail Inventory Simulation</a></h2>
 									</header>
 									<a href="https://github.com/Oaazu/case-study-03-produce-shrink-analysis" class="image fit"><img src="images/shrinkloss.png" alt="Produce Shrink Analysis" /></a>
@@ -110,18 +121,6 @@
 									<p><strong>Stack:</strong> Python · pandas · NumPy · matplotlib · Zerve</p>
 									<ul class="actions special">
 										<li><a href="https://github.com/Oaazu/case-study-03-produce-shrink-analysis" class="button">View Project</a></li>
-									</ul>
-								</article>
-
-								<article>
-									<header>
-										<h2><a href="https://github.com/Oaazu/portfoliopython1movies.github.io.git">Movie Industry<br />Correlation Analysis</a></h2>
-									</header>
-									<a href="https://github.com/Oaazu/portfoliopython1movies.github.io.git" class="image fit"><img src="images/moviesp.jpg" alt="Movie Correlation Project" /></a>
-									<p>Python-based statistical analysis investigating what actually drives movie gross revenue. Used Pearson correlation across budget, votes, runtime, and company to find that budget and audience votes are the strongest predictors of earnings — while production company has surprisingly low correlation.</p>
-									<p><strong>Stack:</strong> Python · pandas · NumPy · Seaborn · Matplotlib</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Oaazu/portfoliopython1movies.github.io.git" class="button">View Project</a></li>
 									</ul>
 								</article>
 
@@ -136,8 +135,8 @@
 								</section>
 								<section>
 									<h3>Currently</h3>
-									<p>AI Business Solutions Fellow (Alumni) @ The Knowledge House<br />
-									Transferring to Cal State LA — Fall 2026</p>
+									<p>Junior CS student @ Cal State LA<br />
+									AI Tech Corps Fellow @ OptimaNova AI · TKH AI Business Solutions alum</p>
 								</section>
 								<section>
 									<h3>Email</h3>
